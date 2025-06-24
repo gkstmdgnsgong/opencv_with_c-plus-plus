@@ -1,0 +1,3 @@
+/Users/shhan/code/opencv_with_c-plus-plus/build/CMakeFiles/BayabasAi.dir
+/Users/shhan/code/opencv_with_c-plus-plus/build/CMakeFiles/edit_cache.dir
+/Users/shhan/code/opencv_with_c-plus-plus/build/CMakeFiles/rebuild_cache.dir

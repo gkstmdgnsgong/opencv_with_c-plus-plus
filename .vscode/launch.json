@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Debug OpenCV App with CMake (macOS)",
+        "type": "cppdbg",
+        "request": "launch",
+        "program": "${workspaceFolder}/build/BayabasAi",
+        "stopAtEntry": false,
+        "cwd": "${workspaceFolder}",
+        "environment": [],
+        "MIMode": "lldb",
+        "preLaunchTask": "C/C++: clang++ Build with OpenCV, CMake (macOS)",
+        "externalConsole": true
+      }
+    ]
+  }

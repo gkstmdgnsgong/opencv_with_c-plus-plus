@@ -1,0 +1,21 @@
+// Proj Root/.vscode/c_cpp_properties.json
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/Libraries/install/include/opencv4",
+                "${workspaceFolder}/src/include" // src 내에 추가 include 폴더가 있다면 이곳에 지정
+            ],
+            "defines": [],
+            "macFrameworkPath": [
+                "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"
+            ],
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "macos-clang-arm64",
+            "compilerPath": "/usr/bin/clang"
+        }
+    ],
+    "version": 4
+}

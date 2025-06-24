@@ -365,8 +365,11 @@ using namespace std; // std::string, std::cout 등을 위해 추가
 
 int main()
 {
+
     // 이미지 파일 경로 (반드시 실제 유효한 이미지 파일 경로로 변경하세요!)
-    string path = "path/to/your/image.jpg"; // 예: "C:/Users/YourUser/Pictures/my_image.jpg" 또는 "/Users/YourUser/Pictures/my_image.jpg"
+    // 예: "C:/Users/YourUser/Pictures/my_image.jpg" 또는 "/Users/YourUser/Pictures/my_image.jpg"
+    string path = "/Users/shhan/code/opencv_with_c-plus-plus/src/test-img.png";
+    
 
     // 이미지 읽기
     Mat imgRead = imread(path);
@@ -378,7 +381,7 @@ int main()
     }
 
     // 이미지 창에 표시
-    imshow("Hello OpenCV World", imgRead);
+    imshow("Hello OpenCV World, but you cant use korean-hangul", imgRead); //OpenCv에서 한글은 잘 지원이 안됩니다. 영어 사용 권장드립니다
 
     // 키 입력 대기 (0은 무한 대기)
     waitKey(0);

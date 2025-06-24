@@ -24,7 +24,7 @@ int main()
     }
 
     // 이미지 창에 표시
-    imshow("Hello OpenCV World, but you cant use korean-hangul", imgRead);
+    imshow("Hello OpenCV World, but you cant use korean-hangul", imgRead); //OpenCv에서 한글은 잘 지원이 안됩니다. 영어 사용 권장드립니다
 
     // 키 입력 대기 (0은 무한 대기)
     waitKey(0);
